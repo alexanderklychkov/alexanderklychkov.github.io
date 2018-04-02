@@ -1,0 +1,206 @@
+html,
+body {
+    min-width: 1040px;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    background-color: #edeef0;
+}
+
+.container {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.page-header {
+	background-color: #698ff7;
+}
+
+.header-logo img {
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.header-reg-list {
+	float: right;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.header-reg-list-item {
+	display: inline-block;
+}
+
+.header-reg-list-item a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	font-size: 17px;
+	padding: 15px;
+    width: 100px;
+    text-align: center;
+}
+
+.header-reg-list-item a:hover {
+	background-color: #7c9ef7;
+}
+
+/* main */
+
+.main-letter p {
+	text-align: center;
+}
+
+.main-text .red {
+	color: #e50c19;
+}
+
+.main-text h1 {
+	font-size: 40px;
+	text-align: right;
+	margin-right: 50px;
+}
+
+.main-it img {
+	margin-top: -54px;
+}
+
+/* footer */
+
+.page-footer {
+	margin-top: 20px;
+	background-color: #212121;
+}
+
+.footer-copyright p {
+	padding-top: 50px;
+	text-align: center;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/* Modal Window */
+
+.login {
+	text-align: center;
+}
+.field {
+	height: 25px;
+    text-align: center;
+    font-size: 15px;
+    width: 200px;
+}
+.btn {
+	width: 160px;
+    height: 30px;
+    border: 0px solid;
+    background-color: #7c9ef7;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin-top: 20px;
+    font-weight: bold;
+}
+.btn:hover {
+	opacity: 0.8;
+}
+.forgot {
+	text-decoration: none;
+    color: #fff;
+    font-size: 11px;
+}
+
+.forgot:hover {
+	text-decoration: underline;
+}
+.smile {
+	font-size: 13px;
+}
+.check {
+    margin-left: -70px;
+    margin-top: 10px;
+    height: 11px;
+}
+.login input[type="text"] {
+    margin-bottom: 15px;
+}
+.overlay 
+{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+    display: none;
+}
+.popup 
+{
+    position: absolute;
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: #698ff7;
+    color: #fff;
+}
+.popup h2
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px;
+    padding-top: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.popup p {
+	text-align: center;
+	margin: 0;
+}
+.close-popup 
+{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+}
+.close-popup:before 
+{
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    height: 1px;
+    width: 31px;
+    top: 11px;
+    left: -4px;
+    transform: rotate(-45deg);
+}
+.close-popup:after 
+{
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    height: 1px;
+    width: 31px;
+    top: 11px;
+    transform: rotate(45deg);
+    left: -4px;
+}
