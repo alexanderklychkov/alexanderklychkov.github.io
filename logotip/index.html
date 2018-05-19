@@ -24,11 +24,11 @@
   </head>
   <body>
 
-  	<header>
+  	<header id="head">
   		<div class="container">
   			<div class="row head">
   				<div class="col-md-2 text-left">
-  					<img class="head-logo" src="img/logo.png" alt="">
+  					<a href="#"><img class="head-logo" src="img/logo.png" alt=""></a>
   				</div>
   				<div class="col-md-4 text-left">
   					<p class="head-site">Корпоративный сайт<br> современной компании</p>
@@ -77,6 +77,12 @@
             <div class="slide-two">
               <div class="container">
                 <div class="row">
+                  <div class="slide-one-box">
+                    <hr class="slide-hr">
+                    <h1 class="slider-head">Быстрый старт</h1>
+                    <p  class="slider-text">Всё готово для быстрого запуска<br>вашего сайта</p>
+                    <button class="slider-btn slider-btn-two">Узнать больше</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -85,6 +91,12 @@
             <div class="slide-three">
               <div class="container">
                 <div class="row">
+                  <div class="slide-one-box">
+                    <hr class="slide-hr">
+                    <h1 class="slider-head">Адаптация<br>под фирменный стиль</h1>
+                    <p  class="slider-text">Неограниченная палитра цветов, универсальные текстуры<br>и библиотека иконок — выбирайте любую гамму<br>без каких-то усилий, просто изменив пару строк.</p>
+                    <button class="slider-btn slider-btn-three">Узнать больше</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -121,7 +133,7 @@
                 <div class="container">
                   <div class="row">
                     <h1>Создайте необходимую<br>атмосферу</h1>
-                    <p>Видеоконтент хорошо взаимодействует с пользователем<br>и помогает лучше понять инфомрацию, которую вы хотите<br>донести. Покажите кто вы и все вопросы исчезнут.</p>
+                    <p>Видеоконтент хорошо взаимодействует с пользователем<br>и помогает лучше понять информацию, которую вы хотите<br>донести. Покажите кто вы и все вопросы исчезнут.</p>
                   </div>
                 </div>
             </div>
@@ -184,12 +196,97 @@
         </div>
       </section>
 
+      <section id="parallax" data-parallax="scroll" data-image-src="img/parallax.jpg">
+        <div class="arrow-up"><a href="#head"><i class="fa fa-long-arrow-up"></i></a></div>
+        <div class="container">
+          <div class="row">
+            <h1 class="parallax-head">Создайте необходимую<br>атмосферу</h1>
+          </div>
+        </div>
+      </section>
+
+      <section id="form">
+        <div class="container">
+          <div class="row form-main">
+            <div class="col-md-6 form-main-text">
+              <h1>Готовы ответить<br>на ваши вопросы</h1>
+              <p>Для этого обратитесь, пожалуйста, в Дирекцию по коммуникациям и связям с общественностью, отправив письмо на адрес info@kompany.ru или заполнив форму обратной связи.</p>
+            </div>
+            <div class="col-md-6">
+              <div class="form-main-box">
+                <form id="send" action="#" method="post">
+                  <input id="yourName" type="text" name="yourname" placeholder="Ваше Имя"><br>
+                  <input id="yourEmail" type="text" name="youremail" placeholder="Email"><br>
+                  <input id="yourPhone" type="phone" name="yourphone" placeholder="Ваш Телефон">
+                  <label><input type="checkbox"> Я согласен на обработку персональных данных</label>
+                  <button class="form-btn">Отправить</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </main>
+
+    <footer>
+      
+      <section id="footer">
+        <div class="container">
+          <div class="row footer-main">
+            <div class="col-md-3">
+              <p>8 (800) 700-00-00</p>
+            </div>
+            <div class="col-md-offset-1 col-md-2">
+              <h3>Информация</h3>
+              <ul>
+                <li><a href="#">Кампания</a></li>
+                <li><a href="#">Каталог</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Проекты</a></li>
+                <li><a href="#">Сертификаты</a></li>
+                <li><a href="#">Вакансии</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h3>Магазин</h3>
+              <ul>
+                <li><a href="#">Принтеры</a></li>
+                <li><a href="#">Сканеры</a></li>
+                <li><a href="#">Уличная мебель</a></li>
+                <li><a href="#">Футболки</a></li>
+                <li><a href="#">Фонари</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 footer-main-social text-right">
+              <ul>
+                <li><a href="#"><i class="fa fa-vk"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <hr class="footer-hr">
+          <div class="row footer-bottom">
+            <div class="col-md-6">
+              <p>&copy; 2017 Все права защищены.</p>
+            </div>
+            <div class="col-md-6 text-right">
+              <p>Сделано в студии <span class="footer-bottom-white">«<a href="https://ms-net.ru/" target="_blank">Медиасеть</a>»</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </footer>
 
   	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="slick/slick.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/parallax.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
     <script>
@@ -197,9 +294,25 @@
         $('.single-item').slick({
           arrows: false,
           dots: true,
-          fade: true
+          fade: true,
+          autoplay: true
         });
       });
+    </script>
+
+    <script>
+        $('a[href^="#"]').bind('click.smoothscroll',function (e) {
+         e.preventDefault();
+         
+        var target = this.hash,
+         $target = $(target);
+         
+        $('html, body').stop().animate({
+         'scrollTop': $target.offset().top
+             }, 800, 'swing', function () {
+             window.location.hash = target;
+             });
+         });
     </script>
 
   </body>

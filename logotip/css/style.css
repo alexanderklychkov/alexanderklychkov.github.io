@@ -130,19 +130,34 @@ p {
 	width: 647px;
 	margin-top: 95px;
 	margin-left: 17px;
+	position: absolute;
+}
+
+.slide-hr {
+	border: 3px solid #05b8f4;
+	background-color: #05b8f4;
+	width: 43px;
+	margin-bottom: 0px;
+    position: relative;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 33px;
+    margin-right: 27px;
+    top: 66px;
 }
 
 .slider-head {
 	font-size: 30px;
-	text-transform: uppercase;
-	padding-top: 52px;
-	padding-left: 83px;
-	margin-bottom: 0;
+    text-transform: uppercase;
+    padding-top: 52px;
+    padding-left: 103px;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .slider-text {
 	margin-top: 25px;
-	padding-left: 83px;
+    padding-left: 103px;
 	margin-bottom: 0;
 }
 
@@ -152,9 +167,17 @@ p {
 	height: 44px;
 	background-color: #036ad0;
 	border: 1px solid #036ad0;
-	margin-left: 83px;
-	margin-top: 30px;
+   	margin-left: 103px;
+	margin-top: 36px;
 	margin-bottom: 50px;
+}
+
+.slider-btn-two {
+	margin-top: 83px;
+}
+
+.slider-btn-three {
+	margin-top: 30px;
 }
 
 .slider-btn:hover {
@@ -217,21 +240,21 @@ p {
 .overlay {
     background: rgba(0,0,0,0.3);
     position: absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 538px;
-    z-index: 4;
+    z-index: 100;
 }
  
 .overlay h1 {
     text-align: left;
-    text-transform: uppercase;;
+    text-transform: uppercase;
     color:#fff;
     font-size: 30px;
     margin-top: 187px;
     margin-left: 15px;
-	letter-spacing: 5px;
+	letter-spacing: 3px;
 }
 
 .overlay p {
@@ -335,3 +358,177 @@ p {
 	background-color: rgba(255,255,255,0);
 }
 
+/* Section Parallax */
+
+#parallax {
+	height: 568px;
+	margin-top: 40px;
+}
+
+.parallax-head {
+	text-transform: uppercase;
+	text-align: right;
+	margin-top: 221px;
+	font-size: 30px;
+	letter-spacing: 3px;
+}
+
+.arrow-up {
+	float: right;
+}
+
+.arrow-up i {
+	font-size: 30px;
+	color: #46cab6;
+	border: 2px solid #46cab6;
+	width: 55px;
+    height: 55px;
+	border-radius: 50%;
+	padding-left: 19px;
+    padding-top: 10px;
+    background-color: #fff;
+    margin-right: 49px;
+    margin-top: 173px;
+}
+
+.arrow-up i:hover {
+	color: #fff;
+	background-color: #46cab6;
+	cursor: pointer;
+}
+
+/* Section Form */
+
+.form-main {
+	margin-top: 38px;
+}
+
+.form-main-text h1 {
+	margin-top: 87px;
+	text-transform: uppercase;
+}
+
+.form-main-text p {
+	margin-top: 31px;
+}
+
+.form-main-box {
+	box-shadow: 0px 5px 12.35px 0.65px rgba(79, 136, 191, 0.3);
+	width: 473px;
+	float: right;
+}
+
+#send input {
+	margin-top: 14px;
+	margin-left: 64px;
+}
+
+#send input[type="text"],
+#send input[type="phone"] {
+	border: 1px solid #d7d7d7;
+	width: 355px;
+	height: 46px;
+	padding-left: 18px;
+}
+
+#send input[type="checkbox"] {
+	border: 1px solid #1d64aa;
+	width: 20px;
+	height: 20px;
+	font-size: 13px;
+	vertical-align: bottom;
+	margin-top: 18px;
+}
+
+#send #yourName {
+	margin-top: 54px;
+}
+
+.form-btn {
+	color: #fff;
+	width: 205px;
+	height: 44px;
+	background-color: #036ad0;
+	border: 1px solid #036ad0;
+	margin-left: 65px;
+	margin-top: 41px;
+	margin-bottom: 59px;
+}
+
+.form-btn:hover {
+	color: #036ad0;
+	background-color: #fff;
+}
+
+/* Section Footer */
+
+#footer {
+	margin-top: 48px;
+	background-color: #1d64aa;
+}
+
+.footer-main {
+	margin-top: 42px;
+}
+
+.footer-main p {
+	color: #fff;
+	font-size: 24px;
+}
+
+.footer-main h3 {
+	margin-top: 0;
+	color: #fff;
+	font-size: 18px;
+}
+
+.footer-main ul {
+	list-style: none;
+	padding-left: 0;
+	margin-top: 31px;
+}
+
+.footer-main ul li {
+	margin-bottom: 22px;
+}
+
+.footer-main ul li a {
+	color: rgba(255,255,255,0.5);
+	font-size: 15px;
+}
+
+.footer-main-social ul {
+	margin-top: 0;
+	word-spacing: 31px;
+}
+
+.footer-main-social ul li {
+	margin-bottom: 0;
+	display: inline;
+}
+
+.footer-main-social ul li a {
+	color: #fff;
+}
+
+.footer-hr {
+	border: 2px solid rgba(149,149,149,0.3);
+	margin-bottom: 27px;
+}
+
+.footer-bottom {
+	margin-bottom: 26px;
+}
+
+.footer-bottom p {
+	color: #a4c4e4;
+}
+
+.footer-bottom a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.footer-bottom-white {
+	color: #fff;
+}
