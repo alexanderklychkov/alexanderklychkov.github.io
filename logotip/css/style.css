@@ -52,13 +52,15 @@ p {
 .head-hr {
 	border: 2px solid #3bb5c7;
 	margin-top: 10px;
+	margin-bottom: 26px;
 }
 
 /* Section Nav */
 
 .nav-menu {
 	padding-left: 15px;
-	word-spacing: 111px;
+	word-spacing: 104px;
+	margin-bottom: 20px;
 }
 
 .nav-menu li {
@@ -74,6 +76,13 @@ p {
 .nav-menu li a:hover {
 	text-decoration: none;
 	color: #4C8FE6;
+}
+
+.fa-chevron-down {
+	font-size: 8px;
+	margin-left: 5px;
+    vertical-align: middle;
+    margin-top: -3px;
 }
 
 /* Section Slider */
@@ -93,22 +102,236 @@ p {
 
 .slide-one {
 	background-image: url(../img/slide1.jpg);
-	height: 367px;
+	height: 592px;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 }
 
 
 .slide-two {
 	background-image: url(../img/slide2.jpg);
-	height: 367px;
+	height: 592px;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .slide-three {
 	background-image: url(../img/slide3.jpg);
-	height: 367px;
+	height: 592px;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 }
+
+.slide-one-box {
+	background-color: rgba(255,255,255,0.9);
+	width: 647px;
+	margin-top: 95px;
+	margin-left: 17px;
+}
+
+.slider-head {
+	font-size: 30px;
+	text-transform: uppercase;
+	padding-top: 52px;
+	padding-left: 83px;
+	margin-bottom: 0;
+}
+
+.slider-text {
+	margin-top: 25px;
+	padding-left: 83px;
+	margin-bottom: 0;
+}
+
+.slider-btn {
+	color: #fff;
+	width: 205px;
+	height: 44px;
+	background-color: #036ad0;
+	border: 1px solid #036ad0;
+	margin-left: 83px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.slider-btn:hover {
+	color: #036ad0;
+	background-color: rgba(255,255,255,0.2);
+}
+
+.slick-dotted.slick-slider {
+	margin-bottom: 0;
+}
+
+/* Section Advantages */
+
+#advantages {
+	background-color: #ebf5fe;
+}
+
+.advantages-list img {
+	height: 79px;
+}
+
+.advantages-list {
+	margin-top: 69px;
+}
+
+.advantages-list p {
+	margin-top: 25px;
+	margin-bottom: 47px;
+}
+
+.advantages-img-one {
+	padding-right: 50px;
+}
+
+.advantages-img-three {
+	padding-right: 15px;
+}
+
+.advantages-img-four {
+	padding-right: 33px;
+}
+
+/* Section Video */
+
+.fullscreen-bg {
+    overflow: hidden;
+    z-index: -100;
+    position: relative;
+    height: 538px;
+    width: 100%;
+}
+ 
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+ 
+.overlay {
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 538px;
+    z-index: 4;
+}
+ 
+.overlay h1 {
+    text-align: left;
+    text-transform: uppercase;;
+    color:#fff;
+    font-size: 30px;
+    margin-top: 187px;
+    margin-left: 15px;
+	letter-spacing: 5px;
+}
+
+.overlay p {
+	color: #fff;
+	margin-top: 30px;
+	margin-left: 15px;
+}
+
+/* Section Services */
+
+.services-hr {
+	border: 5px solid #3bb5c7;
+	margin-top: 31px;
+}
+
+.services-header {
+	margin-top: 75px;
+}
+
+.services-head {
+	font-size: 30px;
+}
+
+.services-main-left {
+	padding-left: 0;
+}
+
+.services-main-right {
+	padding-right: 0;
+}
+
+.services-main-right img {
+	margin-right: 0;
+}
+
+.services-main-top {
+	margin-top: 45px;
+}
+
+.services-main-top p {
+	margin-top: 13px;
+}
+
+.services-main-bottom {
+	margin-top: 50px;
+}
+
+.services-main-bottom p {
+	margin-top: 13px;
+}
+
+
+.services-main-head {
+	font-size: 16px;
+	color: #49c8b7;
+	margin-top: 27px;
+}
+
+.services-main-middle p,
+.services-main-middle h2 {
+	margin-left: 26px;
+}
+
+.services-main-right p,
+.services-main-right h2 {
+	margin-left: 67px;
+}
+
+.consultation {
+	background-image: url(../img/consultation.png);
+	background-repeat: no-repeat;
+	margin-top: 40px;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.consultation-btn {
+	color: #fff;
+	width: 205px;
+	height: 44px;
+	background-color: #036ad0;
+	border: 1px solid #036ad0;
+	margin-left: 47px;
+	margin-top: 27px;
+	margin-bottom: 21px;
+}
+
+.consultation h1 {
+	color: #fff;
+	margin-top: 46px;
+	margin-left: 54px;
+}
+
+.consultation p {
+	color: #fff;
+	margin-top: 16px;
+	margin-left: 54px;
+}
+
+.consultation-btn:hover {
+	background-color: rgba(255,255,255,0);
+}
+

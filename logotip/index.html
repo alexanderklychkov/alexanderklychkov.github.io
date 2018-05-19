@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Вертска из макета</title>
+    <title>Logotip</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="slick/slick.css">
     <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 
 
@@ -22,6 +23,7 @@
     <![endif]-->
   </head>
   <body>
+
   	<header>
   		<div class="container">
   			<div class="row head">
@@ -43,24 +45,30 @@
         <div class="row nav">
           <ul class="nav-menu">
             <li><a href="#">Компания</a></li>
-            <li><a href="#">Каталог</a></li>
-            <li><a href="#">Услуги</a></li>
-            <li><a href="#">Проекты</a></li>
+            <li><a href="#">Каталог<i class="fa fa-chevron-down"></i></a></li>
+            <li><a href="#">Услуги<i class="fa fa-chevron-down"></i></a></li>
+            <li><a href="#">Проекты<i class="fa fa-chevron-down"></i></a></li>
             <li><a href="#">Информация</a></li>
             <li><a href="#">Контакты</a></li>
-            <li><a href="#">?</a></li>
+            <li><a href="#"><i class="fa fa-search"></i></a></li>
           </ul>
         </div>
   		</div>
   	</header>
 
     <main>
+
       <section id="slider">
         <div class="single-item">
           <div>
             <div class="slide-one">
               <div class="container">
                 <div class="row">
+                  <div class="slide-one-box">
+                    <h1 class="slider-head">Корпоративный сайт<br>для всех</h1>
+                    <p class="slider-text">Готовое решение для юридических лиц<br>и индивидуальных предпринимателей<br>для быстрого создания сайта.</p>
+                    <button class="slider-btn">Узнать больше</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -83,6 +91,99 @@
           </div>
         </div>
       </section>
+
+      <section id="advantages">
+        <div class="container">
+          <div class="row advantages-list">
+            <div class="col-md-3">
+              <img class="img-responsive center-block advantages-img-one" src="img/icon1.png">
+              <p class="text-center">Низкие цены<br>и широкий ассортимент</p>
+            </div>
+            <div class="col-md-3">
+              <img class="img-responsive center-block" src="img/icon2.png">
+              <p class="text-center">Широкая сеть<br>представительств</p>
+            </div>
+            <div class="col-md-3">
+              <img class="img-responsive center-block advantages-img-three" src="img/icon3.png">
+              <p class="text-center">Весь товар<br>сертифицирован</p>
+            </div>
+            <div class="col-md-3">
+              <img class="img-responsive center-block advantages-img-four" src="img/icon4.png">
+              <p class="text-center">Оперативная доставка<br>и выгрузка товара</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="video">
+        <div class="fullscreen-bg">
+            <div class="overlay">
+                <div class="container">
+                  <div class="row">
+                    <h1>Создайте необходимую<br>атмосферу</h1>
+                    <p>Видеоконтент хорошо взаимодействует с пользователем<br>и помогает лучше понять инфомрацию, которую вы хотите<br>донести. Покажите кто вы и все вопросы исчезнут.</p>
+                  </div>
+                </div>
+            </div>
+            <video loop muted autoplay class="fullscreen-bg__video">
+                <source src="video.mp4" type="video/mp4">
+            </video>
+        </div>
+      </section>
+
+      <section id="services">
+        <div class="container">
+          <div class="row services-header">
+            <div class="col-md-1">
+              <hr class="services-hr">
+            </div>
+            <div class="col-md-11">
+              <h1 class="services-head">Предоставляемые услуги</h1>
+              <p>Компания специализируется на оказании широкого спектра услуг как для корпоративных клиентов так и для частных лиц. Профессионализм и ответственность ключевые преимущества нашей компании.</p>
+            </div>
+          </div>
+          <div class="row services-main-top">
+            <div class="col-md-4 services-main-left">
+              <img src="img/service1.jpg" height="172" width="308" class="img-responsive">
+              <h2 class="services-main-head">Строительство зданий</h2>
+              <p class="services-main-text">Осуществляется от имени и в интересах лиц, участвующих в деле: сторон, третьих лиц, заявителей и иных заинтересованных лиц.</p>
+            </div>
+            <div class="col-md-4 services-main-middle">
+              <img src="img/service2.jpg" height="172" width="308" class="img-responsive center-block">
+              <h2 class="services-main-head">Ремонт оборудования</h2>
+              <p>Частичная или полная передача работ по поддержке, обслуживанию и модернизации ИТ-инфраструктуры...</p>
+            </div>
+            <div class="col-md-4 services-main-right">
+              <img src="img/service3.jpg" height="172" width="308" class="img-responsives center-block">
+              <h2 class="services-main-head">Проектирование зданий</h2>
+              <p  class="services-main-text">Веб-разработчик знает, что впервые его. Значительно различается при оценке качества восприятия макета.</p>
+            </div>
+          </div>
+          <div class="row services-main-bottom">
+            <div class="col-md-4 services-main-left">
+              <img src="img/service4.jpg" height="172" width="308" class="img-responsive">
+              <h2 class="services-main-head">Аудит и консалтинг</h2>
+              <p class="services-main-text">Все аспекты, связанные с определением, достижением и поддержанием конфиденциальности, целостности...</p>
+            </div>
+            <div class="col-md-4 services-main-middle">
+              <img src="img/service5.jpg" height="172" width="308" class="img-responsive center-block">
+              <h2 class="services-main-head">Курсы английского</h2>
+              <p class="services-main-text">Проверка финансово-экономической деятельности организации, проводимая аудитором.</p>
+            </div>
+            <div class="col-md-4 services-main-right">
+              <img src="img/service6.jpg" height="172" width="308" class="img-responsives center-block">
+              <h2 class="services-main-head">Школа танцев</h2>
+              <p  class="services-main-text">Выполнение специального аудиторского задания по рассмотрению бухгалтерских и налоговых отчетов экономического...</p>
+            </div>
+          </div>
+          <div class="row consultation">
+            <h1>Консультация по услугам</h1>
+            <p>Менеджеры компании с радостью ответят на ваши вопросы и произведут расчет<br>стоимости услуг и подготовят индивидуальное коммерческое предложение. </p>
+            <button class="consultation-btn">Задать вопрос</button>
+          </div>
+        </div>
+      </section>
+
     </main>
 
   	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -96,7 +197,6 @@
         $('.single-item').slick({
           arrows: false,
           dots: true,
-          autoplay: true,
           fade: true
         });
       });
