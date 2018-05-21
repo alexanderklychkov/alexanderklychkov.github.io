@@ -263,6 +263,18 @@ p {
 	margin-left: 15px;
 }
 
+@media (max-width: 960px) {
+    .fullscreen-bg {
+        background-image: url(../img/video.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+ 
+    .fullscreen-bg__video {
+        display: none;
+    }
+}
+
 /* Section Services */
 
 .services-hr {
@@ -531,4 +543,353 @@ p {
 
 .footer-bottom-white {
 	color: #fff;
+}
+
+/* Media */
+
+
+
+@media (min-width: 0px) and (max-width: 480px) {
+
+  .head-center p, .head-phone, .head-call {
+  	text-align: center;
+  }
+
+  .head-site {
+  	margin-left: 0;
+  	text-align: center;
+  }
+
+  .text-right {
+  	text-align: center;
+  	padding-left: 0;
+  	padding-right: 0;
+  }
+
+  .nav-menu {
+  	text-align: center;
+  }
+	
+  .nav-menu li {
+  	display: block;
+  }
+
+  .nav-menu li:nth-child(1) {
+  	margin-right: 10px;
+  }
+
+  .slide-one-box {
+  	width: 324px;
+  }
+
+  .slider-head {
+  	padding-left: 30px;
+  	padding-right: 20px;
+  	font-size: 22px;
+  }
+
+  .slider-text {
+  	padding-left: 30px;
+  	padding-right: 20px;
+  }
+
+  .slider-btn {
+  	margin-left: 30px;
+  }
+
+  .slide-hr {
+  	opacity: 0;
+  }
+
+  .services-header {
+  	margin-top: 0;
+  }
+
+  .services-head {
+  	font-size: 24px;
+  	text-align: center;
+  }
+
+  .services-header p {
+  	text-align: justify;
+  }
+
+  .services-main-left {
+  	padding-left: 15px;
+  }
+
+  .advantages-list p {
+  	text-align: center;
+  	margin-bottom: 0;
+  }
+
+  .advantages-list p:last-child {
+  	margin-bottom: 47px;
+  }
+
+  .center-block {
+  	display: inline;
+  	margin-right: 0;
+  	margin-left: 0;
+  }
+
+  .services-main-middle p, .services-main-middle h2 {
+  	margin-left: 0;
+  }
+
+  .services-main-right p, .services-main-right h2 {
+  	margin-left: 0;
+  }
+
+  .consultation h1 {
+  	margin-left: 20px;
+  	font-size: 24px;
+  }
+
+  .consultation p {
+  	margin-left: 20px;
+  }
+
+  .consultation-btn {
+  	margin-left: 20px;
+  }
+
+  .parallax-head {
+  	font-size: 24px;
+  	text-align: center;
+  }
+
+  .arrow-up i {
+  	margin-right: 150px;
+  	margin-top: 100px;
+  }
+
+  .form-main-text h1 {
+  	font-size: 24px;
+  	text-align: center;
+  }
+
+  .form-main-text p {
+  	text-align: justify;
+  }
+
+  .form-main-box {
+  	width: 330px;
+  	float: none;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+
+  #send input {
+  	margin-left: 20px;
+  }
+
+  #send input[type="text"], #send input[type="phone"] {
+  	width: 290px;
+  }
+
+  label {
+  	font-size: 11px;
+  }
+
+  .footer-bottom p {
+  	text-align: center;
+  }
+
+  .footer-main p {
+  	text-align: center;
+  }
+
+  .footer-main h3 {
+  	text-align: center;
+  	margin-top: 40px;
+  }
+
+  .footer-main ul {
+  	text-align: center;
+  }
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .head-center p, .head-phone, .head-call {
+  	text-align: center;
+  }
+
+  .head-site {
+  	margin-left: 0;
+  	text-align: center;
+  }
+
+  .text-right {
+  	text-align: center;
+  	padding-left: 0;
+  	padding-right: 0;
+  }
+
+  .nav-menu {
+  	text-align: center;
+  }
+	
+  .nav-menu li {
+  	display: block;
+  }
+
+  .nav-menu li:nth-child(1) {
+  	margin-right: 10px;
+  }
+
+  .slide-one-box {
+  	width: 445px;
+  }
+
+  .slider-head {
+  	font-size: 24px;
+  }
+
+  .advantages-list p {
+  	text-align: center;
+  	margin-bottom: 0;
+  }
+
+  .advantages-list p:last-child {
+  	margin-bottom: 47px;
+  }
+
+  .services-header p {
+  	text-align: justify;
+  }
+
+  .services-main-left {
+  	padding-left: 15px;
+  }
+
+  .center-block {
+  	display: inline;
+  	margin-right: 0;
+  	margin-left: 0;
+  }
+
+  .services-main-middle p, .services-main-middle h2 {
+  	margin-left: 0;
+  }
+
+  .services-main-right p, .services-main-right h2 {
+  	margin-left: 0;
+  }
+
+  .arrow-up i {
+  	margin-top: 138px;
+  }
+
+  .form-main-text h1 {
+  	text-align: center;
+  }
+
+  .form-main-text p {
+  	text-align: justify;
+  }
+
+  .form-main-box {
+  	width: 448px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-bottom p {
+  	text-align: center;
+  }
+
+  .footer-main p {
+  	text-align: center;
+  }
+
+  .footer-main h3 {
+  	text-align: center;
+  	margin-top: 40px;
+  }
+
+  .footer-main ul {
+  	text-align: center;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.head-site {
+		margin-left: 78px;
+	}
+
+	.nav-menu {
+		word-spacing: 33px;
+	}
+
+	.advantages-list p {
+		text-align: center;
+		margin-bottom: 0;
+	}
+
+	.advantages-list p:last-child {
+		margin-bottom: 47px;
+	}
+
+	.services-header p {
+  		text-align: justify;
+  	}
+
+  	.services-main-left {
+  		padding-left: 15px;
+  	}
+
+  	.center-block {
+  		display: inline;
+  		margin-right: 0;
+  		margin-left: 0;
+  	}
+
+  	.services-main-middle p, .services-main-middle h2 {
+  		margin-left: 0;
+  	}
+
+  	.services-main-right p, .services-main-right h2 {
+  		margin-left: 0;
+  	}
+
+  	.form-main-text h1 {
+  		text-align: center;
+  	}
+
+  	.form-main-text p {
+  		text-align: justify;
+  	}
+
+  	.form-main-box {
+    	float: none;
+    	margin-left: auto;
+    	margin-right: auto;
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .nav-menu {
+    word-spacing: 70px;
+  }
+
+  .img-responsive {
+    max-width: none;
+  }
+
+  .services-main-middle p, .services-main-middle h2 {
+    margin-left: 0;
+  }
+
+  .services-main-right p, .services-main-right h2 {
+    margin-left: 0;
+  }
+
 }
