@@ -13,17 +13,25 @@ p {
 
 .head-logo {
 	margin-top: 8px;
+	float: left;
 }
 
 .head-site {
 	font-size: 13px;
+	width: 55%;
+	margin-top: 7px;
 	color: #4c4c4c;
-	margin-top: 17px;
-	margin-left: 60px;	
+	float: right;	
+}
+
+.head-right {
+	width: 65%;
+	float: left;
+	text-align: right;
 }
 
 .head-phone {
-	font-size: 17px;
+	font-size: 18px;
 	color: #000;
 	margin-top: 15px;
 	margin-bottom: 0;
@@ -42,6 +50,8 @@ p {
 	font-size: 15px;
 	color: #036ad0;
 	margin-top: 12px;
+	font-family: Arial, sans-serif;
+	float: right;
 }
 
 .head-btn:hover {
@@ -50,8 +60,9 @@ p {
 }
 
 .head-hr {
-	border: 2px solid #3bb5c7;
-	margin-top: 10px;
+	height: 2px;
+	margin-top: 0;
+	background-color: #3bb5c7;
 	margin-bottom: 26px;
 }
 
@@ -59,8 +70,10 @@ p {
 
 .nav-menu {
 	padding-left: 15px;
-	word-spacing: 104px;
+	word-spacing: 85px;
 	margin-bottom: 20px;
+	letter-spacing: 2px;
+	font-size: 14px;
 }
 
 .nav-menu li {
@@ -134,7 +147,7 @@ p {
 }
 
 .slide-hr {
-	border: 3px solid #05b8f4;
+	height: 3px;
 	background-color: #05b8f4;
 	width: 43px;
 	margin-bottom: 0px;
@@ -203,22 +216,16 @@ p {
 	margin-top: 69px;
 }
 
-.advantages-list p {
+.advantages-list-img {
 	margin-top: 25px;
-	margin-bottom: 47px;
+	margin-bottom: 25px;
 }
 
-.advantages-img-one {
-	padding-right: 50px;
+.advantages-list-text {
+	margin-bottom: 45px;
 }
 
-.advantages-img-three {
-	padding-right: 15px;
-}
 
-.advantages-img-four {
-	padding-right: 33px;
-}
 
 /* Section Video */
 
@@ -278,7 +285,8 @@ p {
 /* Section Services */
 
 .services-hr {
-	border: 5px solid #3bb5c7;
+	height: 5px;
+	background-color: #3bb5c7;
 	margin-top: 31px;
 }
 
@@ -292,9 +300,16 @@ p {
 
 .services-main-left {
 	padding-left: 0;
+	padding-right: 0;
 }
 
 .services-main-right {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.services-main-center {
+	padding-left: 0;
 	padding-right: 0;
 }
 
@@ -306,17 +321,21 @@ p {
 	margin-top: 45px;
 }
 
-.services-main-top p {
-	margin-top: 13px;
+.services-main-box-right {
+	margin: 0 0 0 auto;
 }
+
+/* .services-main-top p {
+	margin-top: 13px;
+} */
 
 .services-main-bottom {
 	margin-top: 50px;
 }
 
-.services-main-bottom p {
+/*.services-main-bottom p {
 	margin-top: 13px;
-}
+}*/
 
 
 .services-main-head {
@@ -325,20 +344,52 @@ p {
 	margin-top: 27px;
 }
 
-.services-main-middle p,
-.services-main-middle h2 {
-	margin-left: 26px;
+.services-main-text {
+	column-width: 308px;
+	height: 70%;
 }
 
-.services-main-right p,
+/*.services-main-middle p,
+.services-main-middle h2 {
+	margin-left: 26px;
+}*/
+
+/* .services-main-right p,
 .services-main-right h2 {
 	margin-left: 67px;
+} */
+
+.services-main-box-img {
+	width: 308px;
+	height: 172px;
+}
+
+.services-main-box-text {
+	width: 308px;
+	height: 170px;
+	overflow: hidden;
+}
+
+.services-main-box-text-center {
+	margin: 0 auto;
+}
+
+.services-main-box-text-right {
+	margin: 0 0 0 auto;
+}
+
+.services-main-box-img-right {
+	margin: 0 0 0 auto;
+}
+
+.services-main-box-img-center {
+	margin: 0 auto;
 }
 
 .consultation {
 	background-image: url(../img/consultation.png);
 	background-repeat: no-repeat;
-	margin-top: 40px;
+	margin-top: 0;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -377,12 +428,19 @@ p {
 	margin-top: 40px;
 }
 
+.parallax {
+	position: relative;
+}
+
 .parallax-head {
 	text-transform: uppercase;
-	text-align: right;
-	margin-top: 221px;
-	font-size: 30px;
-	letter-spacing: 3px;
+    text-align: right;
+    position: absolute;
+    margin-top: 280px;
+    right: 0;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    letter-spacing: 3px;
 }
 
 .arrow-up {
@@ -404,6 +462,36 @@ p {
 }
 
 .arrow-up i:hover {
+	color: #fff;
+	background-color: #46cab6;
+	cursor: pointer;
+}
+
+#toTop {
+	 position: fixed;
+	 bottom: 30px;
+	 margin-left: 85%;
+	 z-index: 1000;
+}
+#toTop a {
+	 width: 55px;
+	 height: 55px;
+	 color: #46cab6;
+	 border: 2px solid #46cab6;
+	 display: block;
+	 background-color: #fff;
+	 text-align: center;
+	 font-size: 30px;
+	 padding-top: 10px;
+	 text-decoration: none;
+	 -webkit-transition: 1s;
+	 -moz-transition: 1s;
+	 transition: 1s;
+	 line-height: 30px;
+	 -webkit-border-radius: 50%;
+	 border-radius: 50%;
+}
+#toTop a:hover {
 	color: #fff;
 	background-color: #46cab6;
 	cursor: pointer;
@@ -501,7 +589,7 @@ p {
 }
 
 .footer-main ul li {
-	margin-bottom: 22px;
+	margin-bottom: 9px;
 }
 
 .footer-main ul li a {
@@ -555,9 +643,32 @@ p {
   	text-align: center;
   }
 
+  .head-logo {
+  	float: none;
+  }
+
+  .head-box p {
+  	text-align: center;
+  }
+
+  .head-box-bottom {
+  	text-align: center;
+  }
+
+  .head-btn {
+  	float: none;
+  	margin-bottom: 10px;
+  }
+
   .head-site {
   	margin-left: 0;
   	text-align: center;
+  	width: 100%;
+  	float: none;
+  }
+
+  .head-right {
+  	width: 100%;
   }
 
   .text-right {
@@ -572,10 +683,6 @@ p {
 	
   .nav-menu li {
   	display: block;
-  }
-
-  .nav-menu li:nth-child(1) {
-  	margin-right: 10px;
   }
 
   .slide-one-box {
@@ -607,7 +714,6 @@ p {
 
   .services-head {
   	font-size: 24px;
-  	text-align: center;
   }
 
   .services-header p {
@@ -633,12 +739,31 @@ p {
   	margin-left: 0;
   }
 
+  .services-hr {
+  	width: 30px;
+  }
+
   .services-main-middle p, .services-main-middle h2 {
   	margin-left: 0;
   }
 
   .services-main-right p, .services-main-right h2 {
   	margin-left: 0;
+  }
+
+  .services-main-box-img-left,
+  .services-main-box-text-left {
+  	margin: 0 auto;
+  }
+
+  .services-main-box-img-one,
+  .services-main-box-text-one {
+  	margin: 0 auto;
+  }
+
+  .services-main-box-img-right,
+  .services-main-box-text-right {
+  	margin: 0 auto;
   }
 
   .consultation h1 {
@@ -657,6 +782,7 @@ p {
   .parallax-head {
   	font-size: 24px;
   	text-align: center;
+  	transform: translate(-7%, -50%);
   }
 
   .arrow-up i {
@@ -717,9 +843,33 @@ p {
   	text-align: center;
   }
 
+  .head-logo {
+  	float: none;
+  }
+
+  .head-box p {
+  	text-align: center;
+  }
+
+  .head-box-bottom {
+  	text-align: center;
+  }
+
+  .head-btn {
+  	float: none;
+  	margin-bottom: 10px;
+  }
+
   .head-site {
   	margin-left: 0;
   	text-align: center;
+  	width: 100%;
+  	float: none;
+  }
+
+  .head-right {
+  	float: none;
+  	width: 100%;
   }
 
   .text-right {
@@ -734,10 +884,6 @@ p {
 	
   .nav-menu li {
   	display: block;
-  }
-
-  .nav-menu li:nth-child(1) {
-  	margin-right: 10px;
   }
 
   .slide-one-box {
@@ -765,6 +911,10 @@ p {
   	padding-left: 15px;
   }
 
+  .services-hr {
+  	width: 30px;
+  }
+
   .center-block {
   	display: inline;
   	margin-right: 0;
@@ -777,6 +927,25 @@ p {
 
   .services-main-right p, .services-main-right h2 {
   	margin-left: 0;
+  }
+
+  .services-main-box-img-left,
+  .services-main-box-text-left {
+  	margin: 0 auto;
+  }
+
+  .services-main-box-img-one,
+  .services-main-box-text-one {
+  	margin: 0 auto;
+  }
+
+  .services-main-box-img-right,
+  .services-main-box-text-right {
+  	margin: 0 auto;
+  }
+
+  .parallax-head {
+  	transform: translate(-6%, -50%);
   }
 
   .arrow-up i {
@@ -820,11 +989,19 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
 
 	.head-site {
-		margin-left: 78px;
+		width: 42%;
+	}
+
+	.head-right {
+		width: 42%;
+	}
+
+	.head-call {
+		font-size: 10px;
 	}
 
 	.nav-menu {
-		word-spacing: 33px;
+		word-spacing: 15px;
 	}
 
 	.advantages-list p {
@@ -840,10 +1017,6 @@ p {
   		text-align: justify;
   	}
 
-  	.services-main-left {
-  		padding-left: 15px;
-  	}
-
   	.center-block {
   		display: inline;
   		margin-right: 0;
@@ -856,6 +1029,44 @@ p {
 
   	.services-main-right p, .services-main-right h2 {
   		margin-left: 0;
+  	}
+
+  	.services-main-box-img-center {
+  		margin: 0 0 0 auto;
+  	}
+
+  	.services-main-box-text-center {
+  		margin: 0 0 0 auto;
+  	}
+
+  	.services-main-box-img-one {
+  		margin: 0 0 0 auto;
+  	}
+
+  	.services-main-box-text-one {
+  		margin: 0 0 0 auto;
+  	}
+
+  	.services-main-box-img-two, 
+  	.services-main-box-text-two {
+  		margin: auto 0 0 0;
+  	}
+
+  	.services-main-box-img-right {
+  		margin: auto 0 0 0;
+  	}
+
+  	.services-main-box-text-right {
+  		margin: auto 0 0 0;
+  	}
+	
+  	.services-main-box-img-three,
+  	.services-main-box-text-three {
+  		margin: 0 0 0 auto;
+  	}
+
+  	.parallax-head {
+  		transform: translate(-10%, -50%);
   	}
 
   	.form-main-text h1 {
@@ -877,7 +1088,7 @@ p {
 @media (min-width: 992px) and (max-width: 1199px) {
 
   .nav-menu {
-    word-spacing: 70px;
+    word-spacing: 52px;
   }
 
   .img-responsive {
@@ -890,6 +1101,10 @@ p {
 
   .services-main-right p, .services-main-right h2 {
     margin-left: 0;
+  }
+
+  .head-right {
+  	width: 55%;
   }
 
 }
