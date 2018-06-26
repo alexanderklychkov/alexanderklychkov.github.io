@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Главная</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<header>
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 nav-img">
+						<a href="index.html"><img width="45" height="45" src="img/logo.png"></a>
+						<a href="index.html" class="navbar-brand">MS Word 2010</a>
+					</div>
+					<div class="col-md-9">
+						<ul class="navbar-menu text-right">
+							<li><a href="index.html">Главная</a></li>
+							<li><a href="formating.html">Форматирование</a></li>
+							<li><a href="lists.html">Табуляция и списки</a></li>
+							<li><a href="tables.html">Таблицы</a></li>
+							<li><a href="styles.html">Стилизация</a></li>
+							<li><a class="active" href="macros.html">Макросы</a></li>
+							<li><a href="print.html">Печать</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<main>
+		<section id="main">
+			<div class="container">
+				<div class="row head-text">
+					<h1>Работа с макросами</h1>
+					<h2>Макросы</h2>
+					<h3>Определение макроса</h3>
+					<p>Если в MS Word необходимо многократно выполнять какую-то задачу, то лучше всего это сделать с помощью макроса. Макрос — это последовательный набор команд, сгруппированных вместе под одним именем. Вместо того чтобы вручную делать отнимающие много времени и повторяющиеся действия, можно создать и запускать один макрос, который будет быстро выполнять записанную последовательность.</p>
+					<p>Макросы часто используются для следующих целей:</p>
+					<ul>
+						<li>для ускорения часто выполняемых операций редактирования или форматирования;</li>
+						<li>для объединения нескольких команд, например, для вставки таблицы с указанными размерами и границами и определенным числом строк и столбцов;</li>
+						<li>для упрощения доступа к параметрам в диалоговых окнах.</li>
+					</ul>
+
+					<h3>Запись макроса</h3>
+					<p>Средство записи макросов позволяет быстро создавать макросы с минимальными усилиями. При этом макрос записывается в виде последовательности инструкций на языке программирования Visual Basic для приложений.</p>
+					<p>Допускается применение мыши для выбора команд и параметров. Однако действия, проделанные в окне документа с помощью мыши, не записываются. Для выполнения этих действий используйте клавиатуру.</p>
+					<p>Запись макроса можно временно приостанавливать и затем возобновлять с того места, где запись была остановлена. Во время записи макроса нельзя ошибаться и отвлекаться на выполнение параллельных задач.</p>
+
+					<h3>Изменение макроса</h3>
+					<p>Для изменения записанного макроса необходимо знакомство с редактором Visual Basic, который используется для написания и изменения макросов MS Word. Для этого выполните следующее:</p>
+					<ol>
+						<li>Вкладка <b>Разработчик - Группа Код - Макросы</b> MS Word отобразит диалоговое окно <b>Макрос (Macros)</b>.</li>
+						<li>Выберите имя макроса из списка.</li>
+						<li>Нажмите кнопку <b>Изменить (Edit)</b>. MS Word автоматически переместит вас в окно редактора Visual Basic.</li>
+						<li>Внесите необходимые изменения.</li>
+						<li>На панели инструментов нажмите кнопку <b>Сохранить (Save)</b>.</li>
+						<li>Закройте окно редактора MS Word вернет вас к документу.</li>
+					</ol>
+
+					<h3>Запуск макроса на выполнения</h3>
+					<p>После того как макрос записан, его можно запустить на выполнение в MS Word.</p>
+					<ol>
+						<li>Откройте документ, который содержит макрос.</li>
+						<li>Вкладка <b>Разработчик - Группа Код - Макросы</b></li>
+						<li>В поле <b>Имя Макроса (Macro name)</b> выберите из списка имя того макроса, который нужно выполнить.</li>
+						<li>Нажмите кнопку <b>Выполнить (Run)</b>.</li>
+					</ol>
+				</div>	
+			</div>
+		</section>
+	</main>
+	<a href="#" class="scrollup">Наверх</a>
+
+	<hr class="main-hr">
+
+	<footer>
+		<div class="container footer-text">
+			<p class="text-center">&copy; Все права сохранены!</p>
+		</div>
+	</footer>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+    	$(document).ready(function(){
+     
+	    	$(window).scroll(function(){
+	    		if ($(this).scrollTop() > 100) {
+	    			$('.scrollup').fadeIn();
+	    		} else {
+	    			$('.scrollup').fadeOut();
+	    		}
+	    	});
+     
+    		$('.scrollup').click(function(){
+    			$("html, body").animate({ scrollTop: 0 }, 600);
+    			return false;
+    			});
+     
+    	});
+    </script>
+</body>
+</html>
