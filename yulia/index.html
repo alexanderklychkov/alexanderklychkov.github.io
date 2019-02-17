@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Вход</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container2">
+    <div class="box2">
+      <p>Вход</p>
+      <form action="">
+        <input id="login" type="text">
+        <input id="pass" type="text">
+      </form>
+      <a id="enter" href="#">Вход</a>
+    </div>
+  </div>
+
+  <script>
+    $(document).ready(function() {
+      $("#enter").click(function() {
+        if ($("#login").val() === 'логин' && $("#pass").val() === 'пароль') {
+          window.location.href = "test.html";
+        } else {
+          alert('Нее, что-то не так')
+        }
+      });
+    });
+  </script>
+</body>
+</html>
