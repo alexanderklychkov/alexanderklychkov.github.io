@@ -38,7 +38,7 @@ body {
 
 .box2 {
   width: 300px;
-  height: 150px;
+  height: 250px;
   background-color: rgba(255, 255, 255, 1);
   border-radius: 5px;
   box-shadow: 0 0 15px #000;
@@ -47,7 +47,18 @@ body {
   flex-direction: column;
 }
 
+.box3 {
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
+  box-shadow: 0 0 15px #000;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
 .box2 form {
+  margin-top: 15px;
   text-align: center;
 }
 
@@ -67,11 +78,19 @@ body {
   box-shadow: 0 0 5px #000;
 }
 
+
+
 .box img {
   margin-top: 40px;
 }
 
 .box p {
+  padding: 30px 50px;
+  text-align: center;
+  margin: 0;
+}
+
+.box3 p {
   padding: 30px 50px;
   text-align: center;
   margin: 0;
@@ -102,14 +121,62 @@ body {
   box-shadow: 0 0 5px #000;
 }
 
+.box3 a {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  width: 300px;
+  padding: 5px; 
+  background-color: #f1d568;
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.box3 a:hover {
+  box-shadow: 0 0 5px #000;
+}
+
 .box .box-none {
   margin-top: 30%;
 }
 
+.box .box-none2 {
+  padding-top: 5px;
+}
+
 audio {
   position: absolute;
-  right: 39%;
+  right: 10px;
   bottom: 10px;
   border-radius: 35px;
   box-shadow: 0 0 15px #000;
+}
+
+.box3 .box-final {
+  font-size: 15px;
+  text-align: justify;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0;
+}
+
+.box3 .padding {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.box3 .right {
+  display: inline;
+  margin-left: 350px;
+}
+
+.box .red {
+  font-size: 14px;
+  color: red;
+  margin-bottom: 15px;
 }

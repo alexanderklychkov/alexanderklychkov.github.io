@@ -11,10 +11,11 @@
 <body>
   <div class="container2">
     <div class="box2">
-      <p>Вход</p>
+      <p>Чёрт.. нужен логин и пароль..</p>
+      <p>На сколько я помню.. логин был где-то на 152 странице, а пароль на 78 странице..</p>
       <form action="">
-        <input id="login" type="text">
-        <input id="pass" type="text">
+        <input id="login" type="text" placeholder="Логин">
+        <input id="pass" type="text" placeholder="Пароль">
       </form>
       <a id="enter" href="#">Вход</a>
     </div>
@@ -23,7 +24,7 @@
   <script>
     $(document).ready(function() {
       $("#enter").click(function() {
-        if ($("#login").val() === 'логин' && $("#pass").val() === 'пароль') {
+        if ($("#login").val() === 'Юля' && $("#pass").val() === 'Саша') {
           window.location.href = "test.html";
         } else {
           alert('Нее, что-то не так')
