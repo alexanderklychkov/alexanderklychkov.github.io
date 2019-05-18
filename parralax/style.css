@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.scene {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  min-height: 100vh;
+}
+
+.layer {
+  position: absolute;
+  left: -10%;
+  top: 0;
+  width: 110%;
+  height: 100%;
+}
+
+.layer-bg {
+  background: url('https://i.ibb.co/5KVTgcQ/image.png') center no-repeat;
+  background-size: cover;
+}
+
+.layer-1 {
+  background: url('img.png') center no-repeat;
+}
