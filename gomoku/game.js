@@ -262,7 +262,7 @@ class Game {
             }
 
             // Движение вправо
-            if (itemObj.x + 1 <= this._field &&
+            if (itemObj.x + 1 < this._field &&
                 !this._nextStepBottom &&
                 areaItems[itemObj.y][itemObj.x + 1].label === '') {
                 
@@ -279,7 +279,7 @@ class Game {
             }
 
             // Движение вниз
-            if (itemObj.y + 1 <= this._field &&
+            if (itemObj.y + 1 < this._field &&
                 areaItems[itemObj.y + 1][itemObj.x].label === '') {
                 
                 let itemSelected = document.getElementById(`item-${this._itemComp.y + 1}-${this._itemComp.x}`);
