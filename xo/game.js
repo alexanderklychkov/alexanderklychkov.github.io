@@ -28,7 +28,7 @@ class Game {
         for (let i = 0; i < areaItems.length; i++) {
             let areaItem = document.createElement('div');
             areaItem.classList.add('area-item');
-            areaItem.setAttribute('id', areaItems[i].id);
+            areaItem.setAttribute('id', `item-${areaItems[i].id}`);
             areaItem.textContent = areaItems[i].label;
 
             areaItem.addEventListener('click', (e) => this._stepPlayer(e, areaItems[i].id));
