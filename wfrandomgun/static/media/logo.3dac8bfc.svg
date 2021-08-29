@@ -1,0 +1,23 @@
+<svg width="402" height="16" viewBox="0 0 402 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M144 15V1H157L155 4H147V7H152V9H147V13H155L157 15H144Z" fill="white" stroke="white" stroke-width="0.1"/>
+    <path d="M120 15V1H133L131 3.33333H122V12.6667H131L133 15H120Z" fill="white" stroke="white" stroke-width="0.1"/>
+    <path d="M75 15V6.38462H89V8.53846H77V15H75Z" fill="white"/>
+    <path d="M75 1V3.15385H89V1H75Z" fill="white"/>
+    <path d="M75 15V6.38462H89V8.53846H77V15H75Z" stroke="white" stroke-width="0.1"/>
+    <path d="M75 1V3.15385H89V1H75Z" stroke="white" stroke-width="0.1"/>
+    <path d="M48 15V1H62V5.30769L58 9.61539L63 15H60L53 7.46154H58L60 5.30769V3.15385H50V15H48Z" fill="white" stroke="white" stroke-width="0.1"/>
+    <path d="M27 15H25L32 1L39 15H37L32 5.30769L27 15Z" fill="white" stroke="white" stroke-width="0.1"/>
+    <path d="M99 15H97L104 1L111 15H109L104 5.30769L99 15Z" fill="white" stroke="white" stroke-width="0.1"/>
+    <path d="M1 15V1L3 2V11L8.5 7L14 11V2L16 1V15H14L8.5 10L3 15H1Z" fill="white" stroke="white" stroke-width="0.1"/>
+    <path d="M364 12.8462V1H366.333V11.7692L367.5 12.8462H374.5L375.667 11.7692V1H378V12.8462L375.667 15H366.333L364 12.8462Z" fill="white" stroke="white" stroke-width="0.1"/>
+    <path d="M340 12.8462V3.15385L342.308 1H352.692L355 3.15385V5.30769H352.692V4.23077L351.538 3.15385H343.462L342.308 4.23077V11.7692L343.462 12.8462H351.538L352.692 11.7692V10.6923H345.769V8.53846H355V12.8462L352.692 15H342.308L340 12.8462Z" fill="white" stroke="white" stroke-width="0.1"/>
+    <path d="M386 15V1H388.5L398.5 12V1H401V15H398.5L388.5 4V15H386Z" fill="white" stroke="white" stroke-width="0.1"/>
+    <path d="M182 15V1H196V5.30769L192 9.61539L197 15H194L187 7.46154H192L194 5.30769V3.15385H184V15H182Z" fill="white" stroke="white" stroke-width="0.1"/>
+    <path d="M208 15H206L213 1L220 15H218L213 5.30769L208 15Z" fill="white" stroke="white" stroke-width="0.1"/>
+    <path d="M316 1L316 15L314 14L314 5L308.5 9L303 5L303 14L301 15L301 0.999999L303 0.999999L308.5 6L314 1L316 1Z" fill="white" stroke="white" stroke-width="0.1"/>
+    <path d="M229 15V1H231.5L241.5 12V1H244V15H241.5L231.5 4V15H229Z" fill="white" stroke="white" stroke-width="0.1"/>
+    <path d="M256 15V1H268L270 3V13L268 15H256Z" fill="white" stroke="white" stroke-width="0.1"/>
+    <path d="M258 12V4L259 3H267L268 4V12L267 13H259L258 12Z" fill="black" stroke="white" stroke-width="0.1"/>
+    <path d="M278 13V3L280 1H290L292 3V13L290 15H280L278 13Z" fill="white" stroke="white" stroke-width="0.1"/>
+    <path d="M280 12V4L281 3H289L290 4V12L289 13H281L280 12Z" fill="black" stroke="white" stroke-width="0.1"/>
+</svg>
