@@ -16,7 +16,7 @@
     }
 
     if (popupContainer) {
-      this.observer.observe(popupContainer, { childList: true, subtree: true })
+      observer.observe(popupContainer, { childList: true, subtree: true })
     }
     
   } catch(e) {
