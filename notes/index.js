@@ -5,6 +5,10 @@ import List from './components/List.js';
 import NoteCreater from './components/NoteCreater.js';
 import NoteEditor from './components/NoteEditor.js';
 
+/**
+ * Ядро приложения
+ * @type {Core}
+ */
 const core = new Core({
     root: AppMain,
     components: [
